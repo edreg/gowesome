@@ -1,2 +1,4 @@
 # awesome
-first go steps
+learning go by TDD
+got test -bench=.
+got test -cover
