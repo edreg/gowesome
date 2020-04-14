@@ -5,3 +5,5 @@ go test -bench=.
 go test -cover
 go test -race
 go vet
+
+https://www.onlinetool.io/xmltogo/
