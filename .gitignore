@@ -1,1 +1,4 @@
 /.idea
+/app/cmd/webServer/game.db.json
+/app/app
+/app/cmd/cli/game.db.json
