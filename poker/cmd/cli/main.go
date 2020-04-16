@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	poker "github.com/edreg/awesome/app"
+	"github.com/edreg/awesome/poker"
 	"log"
 	"os"
 )
@@ -17,9 +17,10 @@ func main() {
 	}
 	defer closeFunc()
 
+	game := poker.NewTexasHoldem(poker.BlindAlerterFunc(poker.StdOutAlerter), store)
+	cli := poker.NewCLI(os.Stdin, os.Stdout, game)
+
 	fmt.Println("Let's play poker")
 	fmt.Println("Type {Name} wins to record a win")
-
-	game := poker.NewCLI(store, os.Stdin)
-	game.PlayPoker()
+	cli.PlayPoker()
 }

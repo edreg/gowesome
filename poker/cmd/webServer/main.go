@@ -1,7 +1,7 @@
 package main
 
 import (
-	poker "github.com/edreg/awesome/app"
+	poker "github.com/edreg/awesome/poker"
 	"log"
 	"net/http"
 )

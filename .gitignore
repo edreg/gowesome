@@ -1,4 +1,4 @@
 /.idea
-/app/cmd/webServer/game.db.json
-/app/app
-/app/cmd/cli/game.db.json
+/poker/cmd/webServer/game.db.json
+/poker/poker
+/poker/cmd/cli/game.db.json
